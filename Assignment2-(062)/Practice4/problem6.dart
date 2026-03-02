@@ -1,0 +1,12 @@
+void main() {
+  Map<String, dynamic> person = {
+    "name": "Sagor",
+    "address": "Dhaka",
+    "age": 20,
+    "country": "Bangladesh",
+  };
+  person["country"] = "Canada";
+  person.forEach((key, value) {
+    print("$key : $value");
+  });
+}
